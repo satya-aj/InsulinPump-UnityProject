@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0CBC05F4-219F-2C1E-830B-05D8820F189C}</ProjectGuid>
+    <ProjectGuid>{E009BF26-AE92-C7EA-E33C-ADC5B7EF31DB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,8 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\THYRA\Scripts\PlayerFollow.cs" />
+    <Compile Include="Assets\WaterFlowAnimation.cs" />
     <Compile Include="Assets\DisplayElements.cs" />
     <Compile Include="Assets\THYRA\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\FlowSpeed.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NewSurfaceShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
